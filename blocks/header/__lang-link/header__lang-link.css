@@ -1,14 +1,14 @@
 .header__lang-link {
   color: #fff;
-  font-family: "Inter Regular", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 24px;
   line-height: 28px;
-  font-weight: 100;
+  font-weight: 400;
   align-self: flex-end;
   text-decoration: none;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
