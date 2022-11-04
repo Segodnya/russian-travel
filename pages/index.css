@@ -9,7 +9,11 @@
 
 /* List */
 @import url(../blocks/list/list.css);
+@import url(../blocks/list/_direction/list_direction_column.css);
 @import url(../blocks/list/__element/list__element.css);
+
+/* Figure */
+@import url(../blocks/figure/figure.css);
 
 /* Header */
 @import url(../blocks/header/header.css);
@@ -24,3 +28,14 @@
 @import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
+
+/* Intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
