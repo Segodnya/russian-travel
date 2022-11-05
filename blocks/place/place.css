@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: calc(768px + 100px)) {
   .place {
     column-gap: 28px;
     grid-template-columns: 340px auto;
@@ -28,7 +28,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: calc(768px - 100px)) {
   .place {
     display: flex;
     flex-direction: column;
