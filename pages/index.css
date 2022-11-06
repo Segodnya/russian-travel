@@ -12,9 +12,6 @@
 @import url(../blocks/list/_direction/list_direction_column.css);
 @import url(../blocks/list/__element/list__element.css);
 
-/* Figure */
-@import url(../blocks/figure/figure.css);
-
 /* Opacity */
 @import url(../blocks/opacity/opacity.css);
 
@@ -22,7 +19,7 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__lang-link/header__lang-link_active.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /* Lead */
 @import url(../blocks/lead/lead.css);

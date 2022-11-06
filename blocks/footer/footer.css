@@ -13,7 +13,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: calc(320px + 420px)) {
   .footer {
     height: 310px;
     max-width: calc(100% - 16px);
