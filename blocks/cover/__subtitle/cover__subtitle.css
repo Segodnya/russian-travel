@@ -9,8 +9,9 @@
   position: relative;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
   .cover__subtitle {
+    padding-top: 16px;
     max-width: 288px;
     font-size: 14px;
     line-height: 16px;

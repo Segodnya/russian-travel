@@ -9,13 +9,13 @@
   text-align: center;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .lead__title {
     padding-top: 48px;
   }
 }
 
-@media (max-width: calc(768px - 80px)) {
+@media screen and (max-width: calc(768px - 80px)) {
   .lead__title {
     max-width: 288px;
     font-size: 40px;

@@ -10,7 +10,7 @@
   margin-right: 0px;
 }
 
-@media (max-width: calc(320px + 420px)) {
+@media screen and (max-width: calc(320px + 420px)) {
   .footer__link {
     display: block;
     margin-bottom: 32px;
